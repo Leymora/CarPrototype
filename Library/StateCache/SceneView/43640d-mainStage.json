@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-28.68195343017578,"y":-10.326406478881836,"z":6.714958190917969},"rotation":{"x":0.1366824507713318,"y":-0.6131067276000977,"z":0.10869757831096649,"w":0.7706514000892639},"size":33.67008972167969,"orthographic":false}
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-1.2468008995056153,"y":3.650524616241455,"z":-1.4772379398345948},"rotation":{"x":-0.07045035064220429,"y":-0.008383502252399922,"z":0.0006041274755261838,"w":-0.9975054860115051},"size":7.614124298095703,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-4.769114971160889,"y":-3.0439889430999758,"z":8.880874633789063},"rotation":{"x":-0.3254115879535675,"y":0.21223405003547669,"z":-0.07519906014204025,"w":-0.9184396266937256},"size":21.17548942565918,"orthographic":false}
+>>>>>>> e662bd19f5643f4f08b0c95326ef27f071481ef7
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":0.05295660346746445,"y":0.26905322074890139,"z":0.9230902194976807},"rotation":{"x":0.2029290348291397,"y":0.10404041409492493,"z":-0.021752912551164628,"w":0.9735416173934937},"size":6.255498886108398,"orthographic":false}
+>>>>>>> 3b4afab3a6d0f72583ab1f93a062328b6184f798
+>>>>>>> 5663b0f184c87774d8e5e70089eae65c5e2502f5
