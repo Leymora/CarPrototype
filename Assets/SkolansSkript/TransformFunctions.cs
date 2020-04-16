@@ -16,6 +16,8 @@ public class TransformFunctions : MonoBehaviour
 	private bool canJump;
 	private Rigidbody self;
 
+	private bool inReverse;
+
 	private void Start()
 	{
 		self = GetComponent<Rigidbody>();
@@ -33,7 +35,7 @@ public class TransformFunctions : MonoBehaviour
 	void Update ()
 	{
 		// stading up controlls
-		if (lyingScript.state == false && standScript.state == true) // if car stands up and is not on lying down.
+		if (lyingScript.state == false && standScript.state == true && inReverse == false) // if car stands up and is not on lying down.
 		{
 
 			if (Input.GetKey(KeyCode.W))
@@ -50,11 +52,6 @@ public class TransformFunctions : MonoBehaviour
 			{
 				transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
 			}
-
-			if (Input.GetKey(KeyCode.S))
-			{
-				transform.Translate(Vector3.forward * -moveSpeed * Time.deltaTime);
-			}
 		}
 
 		//lying down controlls
@@ -64,7 +61,7 @@ public class TransformFunctions : MonoBehaviour
 			{
 				canJump = true;
 			}
-			if (Input.GetKey(KeyCode.A)) // gives the ability to trun in the air
+			if (Input.GetKey(KeyCode.A)) // gives the ability to rotate in the air
 			{
 				transform.Rotate(Vector3.forward, 100 * Time.deltaTime);
 			}
@@ -73,9 +70,32 @@ public class TransformFunctions : MonoBehaviour
 			{
 				canJump = true;
 			}
-			if (Input.GetKey(KeyCode.D))// gives the ability to trun in the air
+			if (Input.GetKey(KeyCode.D))// gives the ability to rotate in the air
 			{
 				transform.Rotate(Vector3.forward, -100 * Time.deltaTime);
+			}
+		}
+
+		if (Input.GetKey(KeyCode.S))
+		{
+			transform.Translate(Vector3.forward * -moveSpeed * Time.deltaTime);
+			inReverse = true;
+		}
+		else
+		{
+			inReverse = false;
+		}
+		if (inReverse == true) // if car stands up and is not on lying down.
+		{
+
+			if (Input.GetKey(KeyCode.A))
+			{
+				transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
+			}
+
+			if (Input.GetKey(KeyCode.D))
+			{
+				transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
 			}
 		}
 	}
